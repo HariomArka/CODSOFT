@@ -1,0 +1,536 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    font-family: sans-serif;
+    color: white;
+}
+
+.heading {
+    font-size: 300%;
+    margin-bottom: 20px;
+    font-weight: 800;
+}
+
+.subheading {
+    font-size: 175%;
+    font-weight: 500;
+}
+
+.box {
+    border-bottom: 8px solid rgb(48, 48, 48);
+}
+
+.box>.text {
+    text-align: left;
+}
+
+/* box1 */
+.box1 {
+    border-bottom: 8px solid rgb(70, 70, 70);
+
+}
+
+.box1>.combox {
+    position: absolute;
+    top: 0px;
+    width: 97.5vw;
+}
+
+.namelangsign {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: -10px;
+}
+
+.box1>.img>img {
+    width: 100%;
+    filter: brightness(.3);
+}
+
+.unlimited {
+    font-size: 300%;
+    font-weight: 900;
+}
+
+.writ .watch {
+    font-size: 160%;
+}
+
+.wat .ready {
+    font-size: 130%;
+
+}
+
+.box1>.combox>nav {
+    display: flex;
+}
+
+.net {
+    margin-left: -140px;
+}
+
+.net>img {
+    width: 180px;
+    filter: contrast(10);
+    margin-left: 20px;
+}
+
+.box1>.combox>.ensi>ul {
+    position: absolute;
+    top: 0px;
+    right: 10px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 45vw;
+}
+
+ul li {
+    list-style: none;
+}
+
+.ensi ul {
+    display: flex;
+    gap: 25px;
+}
+
+.lang {
+    font-size: 80%;
+    border: 1px solid rgb(145, 144, 144);
+    border-radius: 8px;
+    padding: 7px;
+    padding-left: 30px;
+    padding-right: 20px;
+    margin-top: 12px;
+}
+
+.sign {
+    background-color: rgb(223, 2, 2);
+    padding: 11px 18px;
+    font-size: 80%;
+    border-radius: 6px;
+}
+
+.writ {
+    text-align: center;
+    margin-top: 180px;
+}
+
+form>input[type='email'] {
+    padding: 20px;
+    padding-right: 125px;
+    font-size: 90%;
+    background-color: black;
+    opacity: 0.7;
+    border: 1px solid gray;
+    border-radius: 6px;
+}
+
+.get,
+.get2 {
+    font-size: 150%;
+    font-weight: 700;
+    background-color: rgb(206, 2, 2);
+    border-radius: 5px;
+    padding: 15px 15px 10px 15px;
+    margin-left: 10px;
+    width: 200px;
+}
+
+.box1>.combox>.writ>.wat {
+    margin-top: 20px;
+}
+
+.box1>.combox>.writ>.wat>.line {
+    display: flex;
+    justify-content: center;
+}
+
+.box1>.combox>.writ>.wat>.ready {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.box2,
+.box3,
+.box4,
+.box5 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+/* box2 */
+.box2>.img4 {
+    position: relative;
+}
+
+.box2>.img4>video {
+    width: 72%;
+    position: absolute;
+    top: 99px;
+    left: 86px;
+}
+
+/* .box3 */
+.box3 {
+    margin-top: 10px;
+}
+
+.box3>.img5 {
+    position: relative;
+}
+
+.stranger {
+    display: flex;
+    align-items: center;
+    font-size: 90%;
+    gap: 15px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    width: 380px;
+    background-color: black;
+    position: absolute;
+    top: 350px;
+    left: 130px;
+    padding: 8px;
+}
+
+.flex>.dn {
+    color: blue;
+    font-size: 80%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+}
+
+.things>img {
+    width: 60px;
+    margin-left: 4px;
+}
+
+
+/* .box4 */
+.box4>div {
+    text-align: center;
+}
+
+.box4>.img6>img {
+    width: auto;
+}
+
+.box4>.img6 {
+    position: relative;
+}
+
+.box4>.img6>video {
+    width: 355px;
+    height: 270px;
+    position: absolute;
+    top: 10px;
+    left: 140px;
+    opacity: 0.7;
+}
+
+/* box6 */
+.box6 {
+    text-align: center;
+    padding-bottom: 70px;
+    height: 800px;
+    margin-top: 100px;
+}
+
+.box6>.ques {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 10%;
+}
+
+.box6>.ques>.what {
+    display: flex;
+    align-items: center;
+    width: 83%;
+    position: relative;
+    padding: 25px;
+    font-size: 100%;
+    background-color: rgb(37, 37, 37);
+}
+
+.box6>.ques>.what>.plus {
+    position: absolute;
+    font-size: 200%;
+    right: 4%;
+}
+
+.box6>.wat2 {
+    margin-top: 42px;
+}
+
+.box6>.wat2>.line2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    text-align: center;
+}
+
+.box6>.wat2>.ready2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* box7 */
+.box7 {
+    margin-top: 60px;
+    margin-left: 10%;
+    border: 0px;
+    color: rgb(177, 177, 177);
+}
+
+.box7>.final {
+    margin: 20px;
+}
+
+.box7>.contain {
+    margin-left: 25px;
+    display: grid;
+    font-size: 90%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.box7>.contain>a {
+    color: rgb(177, 177, 177);
+    cursor: pointer;
+}
+
+.box7>p>select {
+    font-size: 110%;
+    background-color: black;
+    color: rgb(253, 253, 253);
+    padding: 10px;
+    padding-left: 15px;
+    margin: 25px;
+    border-radius: 6px;
+}
+
+.box7>.end {
+    font-size: 90%;
+    margin: 25px;
+    margin-top: 0;
+    color: rgb(136, 136, 136);
+}
+
+@media screen and (max-width:1279px) {
+
+    .box2,
+    .box3,
+    .box4,
+    .box5 {
+        padding-right: 3%;
+        padding-left: 3%;
+    }
+
+    .heading {
+        font-size: 220%;
+    }
+
+    .subheading {
+        font-size: 120%;
+    }
+
+    .box7 {
+        margin-left: 0px;
+    }
+
+    .box6>.ques {
+        margin-left: 3%;
+    }
+
+    .box6>.ques>.what {
+        width: 93%;
+    }
+
+}
+
+@media screen and (max-width:959px) {
+
+    .box2,
+    .box3,
+    .box4,
+    .box5 {
+        flex-direction: column;
+
+    }
+
+    .writ>.unlimited {
+        font-size: 170%;
+    }
+
+    .writ .watch {
+        font-size: 120%;
+    }
+
+    .box>.text {
+        text-align: center;
+    }
+
+    .box3,
+    .box5 {
+        flex-direction: column-reverse;
+    }
+    .box7>.contain {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+    }
+    .net>img {
+        width: 130px;
+    }
+
+}
+@media screen and (max-width:850px) {
+    .writ{
+        margin-top: 120px;
+    }
+    
+}
+
+@media screen and (max-width:599px) {
+
+    .box2,
+    .box3,
+    .box4,
+    .box5 {
+        padding-top: 48px;
+        padding-bottom: 52px;
+    }
+
+    .net>img {
+        width: 100px;
+    }
+
+    .heading {
+        font-size: 180%;
+    }
+
+    .namelangsign {
+        margin-top: 0px;
+    }
+
+    .subheading {
+        font-size: 115%;
+    }
+
+    .box1>.img>img {
+        height: 80vh;
+    }
+
+    .box6>.wat2>.line2,
+    .box1>.combox>.writ>.wat>.line {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .net {
+        margin-left: -19px;
+    }
+
+    .writ {
+        margin-top: 50px;
+    }
+
+    .box2>.img4>img {
+        width: 100%;
+    }
+
+    .box6 {
+        margin-top: 50px;
+    }
+
+    .box6>.ques {
+        margin-left: 2%;
+        width: 93%;
+    }
+
+    .box6>.ques>.what {
+        width: 88%;
+    }
+
+    .box4>.img6>img {
+        width: 100%;
+    }
+
+    .box4>.img6>video {
+        width: 60%;
+        top: -15%;
+        left: 20%;
+    }
+
+
+    .girl>img {
+        width: 100%;
+    }
+
+    .box2>.img4>video {
+        top: 20.3%;
+        left: 13.5%;
+    }
+
+    .stranger {
+        top: 313px;
+        left: 78px;
+    }
+
+    .box5>.img7>img {
+        width: 100%;
+    }
+
+    form>input[type='email'] {
+        width: 40%;
+    }
+
+    .get,
+    .get2 {
+        margin-left: 30%;
+    }
+
+    .get,
+    .get2 {
+        font-size: 140%;
+        width: 150px;
+    }
+
+    .box1>.combox>.writ>.wat>.ready {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .wat .ready {
+        font-size: 121%;
+    }
+
+    .stranger {
+        width: 65%;
+        top: 180px;
+        left: 58px;
+
+    }
+
+    .things>img {
+        width: 30px;
+
+    }
+
+    .box6>.wat2>.ready2 {
+        width: 75%;
+        margin-left: 12%;
+    }
+}
